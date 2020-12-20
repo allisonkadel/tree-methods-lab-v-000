@@ -13,10 +13,17 @@ function findOrAdd(rootNode, newNode){
 }
 
 function max(rootNode){
-  if rootNode.right
-  
+  if (rootNode.right){
+    max(rootNode.right)
+  } else {
+    return rootNode.right
+  }
 }
 
 function min(){
-  
+  if (rootNode.left){
+    min(rootNode.left)
+  } else {
+    return rootNode.left
+  }
 }
