@@ -12,8 +12,8 @@ function findOrAdd(rootNode, newNode){
   
 }
 
-function max(currentNode){
-  currentHigh.data = currentNode
+function max(rootNode, currentNode){
+  if currentNode.data > 
   
 }
 
