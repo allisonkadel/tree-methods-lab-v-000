@@ -1,8 +1,8 @@
-function inOrder(node){
-  
+function inOrder(currentNode){
+  if(currentNode.le)
 }
 
-function findOrAdd(node){
+function findOrAdd(currentNode){
   
 }
 
