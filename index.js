@@ -1,12 +1,19 @@
 function inOrder(currentNode){
-  if(currentNode.le)
+  if(currentNode.left){
+    inOrder(currentNode.left)
+  }
+  console.log(currentNode.left)
+  if(currentNode.right){
+    inOrder(currentNode.right)
+  }
 }
 
 function findOrAdd(currentNode){
   
 }
 
-function max(){
+function max(currentNode){
+  currentHigh.data = currentNode
   
 }
 
