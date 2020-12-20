@@ -1,8 +1,8 @@
-function inOrder(){
+function inOrder(node){
   
 }
 
-function findOrAdd(){
+function findOrAdd(node){
   
 }
 
