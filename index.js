@@ -9,7 +9,9 @@ function inOrder(currentNode){
 }
 
 function findOrAdd(rootNode, newNode){
-  if (rootNode.data === newNod)
+  if (rootNode.data === newNode.data){
+    return true
+  }
   if (rootNode.right < newNode.data){
     
   }
